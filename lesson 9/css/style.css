@@ -1,0 +1,42 @@
+/*h2{ 
+    color:cornflowerblue
+}
+button{
+    margin-left: 78px;
+    /*padding: 0 50px;*/
+    /*padding: 10px 20px 0 30px*/
+    /*padding: 60px;
+}
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+
+header{
+    background-color: bisque;
+
+    padding: 30px;
+}
+
+main{
+    background-color: rgb(35, 128, 128);
+    max-width: 900px;
+    min-height: 400px;
+    margin: 30px auto;
+    border: 1px solid#bb2727;
+}
+
+footer{
+    background-color: blanchedalmond;
+    color: blueviolet;
+    padding: 25px;
+    text-align: center;
+}
