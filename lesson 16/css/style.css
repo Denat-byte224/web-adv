@@ -1,0 +1,32 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+div.gallery:hover{
+    border: 5px  solid  seagreen;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+.fortnite-sprite{
+    background: url(../images/image5.jpg) ;
+}
+
+.fortnite-sprite{
+    width: 500px;
+    height: 500px;
+    display:inline-block ;
+
+}
