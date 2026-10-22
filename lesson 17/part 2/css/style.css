@@ -1,0 +1,67 @@
+:root{
+    --primary-color:blue;
+    --second-color:aliceblue;
+    --pading:20px;
+}
+
+
+h1{
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    padding: var(--pading);
+}
+
+p{
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    padding: var(--pading);
+}
+
+#example-1{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+
+#example-2{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    border-color: 3px black;
+}
+
+#example-3{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    border-radius: 5px 60px 5px;
+}
+
+#example-4{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    border-radius: 10px/30px;
+}
+
+#example-5{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    border-radius: 30px/10px;
+}
+
+#example-6{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    background: url(../ball.jpg);
+}
