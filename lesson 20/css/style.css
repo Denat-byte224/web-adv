@@ -1,3 +1,305 @@
-.p1{
-    color: black;
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #162a74, #172a5a, #113581);
+    color: white;
+    min-height: 100vh;
+    line-height: 1.7;
+}
+
+
+header {
+    background: linear-gradient(90deg, #07152f, #102d60, #07152f);
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 3px solid #e4b51e;
+    box-shadow: 0 5px 25px rgba(28, 80, 122, 0.3);
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #3242cc;
+    text-shadow: 0 0 15px #168cff, 0 0 30px #168cff;
+    margin-bottom: 20px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #2d5091;
+    background: #e2b41e;
+    border-color: #fdc302;
+    box-shadow: 0 0 15px #ffc402;
+    transform: translateY(-4px);
+}
+
+
+
+main {
+    max-width: 1150px;
+    margin: 50px auto;
+    padding: 35px;
+    background: rgba(40, 106, 240, 0.75);
+    border: 1px solid rgba(70, 150, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(255, 0, 0, 0.4);
+}
+
+
+
+main img {
+    display: block;
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 25px 0;
+    border: 2px solid #b89830;
+    box-shadow: 0 0 20px rgba(0, 140, 255, 0.3);
+    transition: 0.4s ease;
+}
+
+main img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(0, 140, 255, 0.7);
+}
+
+
+.p1 {
+    font-size: 17px;
+    line-height: 2;
+    color: #dce8ff;
+    text-align: justify;
+    padding: 20px;
+    border-left: 4px solid #d4af37;
+    background: rgba(5, 15, 40, 0.6);
+    border-radius: 10px;
+}
+
+
+
+footer {
+    background: #040a18;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    border-top: 3px solid #d4af37;
+    box-shadow: 0 -5px 20px rgba(0, 140, 255, 0.15);
+}
+
+footer p {
+    color: #467ddb;
+    font-size: 15px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+footer p:hover {
+    color: #d4af37;
+}
+
+
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    main {
+        margin: 20px 12px;
+        padding: 15px;
+    }
+
+    .p1 {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    main img {
+        max-height: 280px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #080e20, #142b50);
+    color: white;
+    padding: 30px 20px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #55b8ff;
+    margin-bottom: 40px;
+    text-shadow: 0 0 12px #168bff;
+}
+
+
+li {
+    list-style: none;
+    max-width: 950px;
+    margin: auto;
+}
+
+ul {
+    background: #1b3155;
+    padding: 22px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    border-left: 6px solid #168bff;
+    font-size: 17px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+ul:hover {
+    background: #294a78;
+    transform: scale(1.02);
+}
+
+
+img {
+    display: block;
+    width: 80%;
+    max-width: 650px;
+    height: auto;
+    margin: 40px auto;
+    border-radius: 15px;
+    border: 3px solid #168bff;
+    box-shadow: 0 0 20px rgba(22, 139, 255, 0.5);
+}
+
+p {
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #1b3155;
+    border-radius: 15px;
+    border: 1px solid #3476b9;
+    font-size: 17px;
+    line-height: 1.9;
+    text-align: justify;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+p:hover {
+    background: #223d65;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    ul {
+        font-size: 15px;
+        padding: 16px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 15px;
+        padding: 18px;
+    }
+}
+
+
