@@ -1,0 +1,159 @@
+
+
+header{
+
+
+    background-color: #1aa4ff;
+
+
+    .h11{
+    text-align: center;
+    color: rgb(4, 126, 207);
+    text-shadow: 0 0 10px #4173b4, 0 0 30px #3d80d8;
+    }
+
+    nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #2d5091;
+    background: #e2b41e;
+    border-color: #fdc302;
+    box-shadow: 0 0 15px #ffc402;
+    transform: translateY(-4px);
+}
+
+
+
+.img1 {
+  width: 90px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+
+}
+}
+
+
+main{
+    .p1{
+        color: white;
+        background-color: #1aa4ff;
+        border: #e2b41e 5px solid;
+   
+    }
+}
+
+.header1{
+
+
+    
+    .h12{
+    text-align: center;
+    color: rgb(0, 153, 255);
+    text-shadow: 0 0 10px #2518e2, 0 0 30px #1f1ccf;
+    }
+
+       nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #2d5091;
+    background: #e2b41e;
+    border-color: #fdc302;
+    box-shadow: 0 0 15px #ffc402;
+    transform: translateY(-4px);
+}
+
+.img1 {
+  width: 90px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+
+}
+
+}
+
+
+
+.hwew{
+
+
+    
+    .h13{
+    text-align: center;
+    color: rgb(0, 153, 255);
+    text-shadow: 0 0 10px #2518e2, 0 0 30px #1f1ccf;
+    }
+
+       nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #2d5091;
+    background: #e2b41e;
+    border-color: #fdc302;
+    box-shadow: 0 0 15px #ffc402;
+    transform: translateY(-4px);
+}
+.img1 {
+  width: 90px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+
+}
+
+}
